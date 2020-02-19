@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  </head>
+  <body>
+    <!--HTML Code-->
+    <nav class="navbar navbar-dark bg-dark">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active text-white" href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-white" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Contribute-Receive</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item text-black" href="#">Donate</a>
+          <a class="dropdown-item text-black" href="#">Request for Donation</a>
+          <div class="dropdown-divider"></div>
+        </div>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">About Us</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="jumbotron text-center">
+      <h1> P E R S O N A L </h1> <h1>I N F O R M A T I O N</h1>
+    </div>
+
+    <body class="bg-dark">
+      <div class="row">
+        <div class="col">
+          <h1 class="text-center text-light"> Let's get to know you better...</h1>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-sm-4">
+          <h2 class="text-center text-light">Profile</h2>
+          <form>
+            <img src="dp blank-0.jpg" alt="blank" class="rounded mx-auto d-block pb-3">
+            <div class="custom-file">
+              <input type="file" class="custom-file-input" id="customFile">
+              <label class="custom-file-label" for="customFile">Choose file</label>
+            </div>
+            <div class="form-group">
+                <span class="col-md-1 col-md-offset-2 text-center"></span>
+                <div class="col-md-8">
+                    <textarea class="form-control" id="message" name="message" placeholder="Tell us about yourself." rows="7"></textarea>
+                </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-sm">
+          <h2 class="text-center text-light">Demographics</h2>
+          <form>
+            <div class="container">
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="well well-sm">
+                          <form class="form-horizontal" method="post">
+                              <fieldset>
+                                  <div class="form-group">
+                                      <span class="col-md-1 col-md-offset-2 text-center"></span>
+                                      <div class="col-md-8">
+                                          <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
+                                      </div>
+                                  </div>
+                                  <div class="form-group">
+                                      <span class="col-md-1 col-md-offset-2 text-center"></span>
+                                      <div class="col-md-8">
+                                          <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
+                                      </div>
+                                  </div>
+
+                                  <div class="form-group">
+                                      <span class="col-md-1 col-md-offset-2 text-center"></span>
+                                      <div class="col-md-8">
+                                          <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
+                                      </div>
+                                  </div>
+
+                                  <div class="form-group">
+                                      <span class="col-md-1 col-md-offset-2 text-center"></span>
+                                      <div class="col-md-8">
+                                          <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
+                                      </div>
+                                  </div>
+
+                                  <div class="form-group">
+                                      <span class="col-md-1 col-md-offset-2 text-center"></span>
+                                      <div class="col-md-8">
+                                          <textarea class="form-control" id="message" name="message" placeholder="Enter your message for us here. We will get back to you within 2 business days." rows="7"></textarea>
+                                      </div>
+                                  </div>
+
+                                      </div>
+                                  </div>
+                              </fieldset>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center">
+          <!-- Button to Open the Modal -->
+          <button type="button" class="btn btn-light" data-toggle="modal" data-target="#myModal">
+            Submit
+          </button>
+
+          <!-- The Modal -->
+          <div class="modal" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Submit Information?</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                  Data input cannot be changed after submitting.
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <input type="submit" class="btn btn-outline-secondary" data-dismiss="modal"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- BOOTSTRAP JAVASCRIPT FILE-->
+    <script type="text/javascript" src="js/jquery-3.4.1.slim.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </body>
